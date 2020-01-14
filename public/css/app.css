@@ -11356,3 +11356,17 @@ a.text-dark:focus {
   }
 }
 
+.container-left {
+  margin: 0 100px 0 100px;
+}
+
+.search-card {
+  margin: 60px 0 60px 0;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+#test-card .card-body .card-text {
+  color: #3490dc;
+}
+

@@ -9,8 +9,6 @@
 
     </head>
     <body>
-
-        @include('layouts.partials._topmenu')
        
         @yield('main')
 

@@ -15,10 +15,13 @@
 
 @section('content')
 
-<div class="card">
-  <img src="{{ asset('images/default.png') }}" class="card-img-top">
-  <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+<div class="container-left">
+  @include('layouts.partials._searchbar')
+
+  <div id="test-card" class="card">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. <i class="fas fa-address-book"></i></p>
+    </div>
   </div>
 </div>
 
